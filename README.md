@@ -1,14 +1,15 @@
 # TrustBox module for Nuxt
 
-[![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-trustbox-module/latest.svg?style=flat-square)](https://npmjs.com/package/nuxt-trustbox-module)
-[![npm](https://img.shields.io/npm/dt/nuxt-trustbox-module.svg?style=flat-square)](https://npmjs.com/package/nuxt-trustbox-module)
+[![npm (scoped with tag)](https://img.shields.io/npm/v/nuxt-trustbox-module/latest.svg)](https://npmjs.com/package/nuxt-trustbox-module)
+[![npm](https://img.shields.io/npm/dt/nuxt-trustbox-module.svg)](https://npmjs.com/package/nuxt-trustbox-module)
 
 > A NuxtJS module thats injects Trustpilot TrustBox code and provide a `<trustbox />` component
+CodeSandebox: [Code reproduction](https://codesandbox.io/s/nuxt-trustbox-module-example-yzm19) | [Full page](https://yzm19.sse.codesandbox.io/)
 
 ## Table of Contents
 
 * [Requirements](#requirements)
-* [Install](#install)
+* [Installation](#installation)
 * [Getting Started](#getting-started)
 * [i18n Translation](#with-i18n)
 * [Warnings](#warnings)
@@ -19,7 +20,7 @@
 * NuxtJS
 * NodeJS
 
-## Install
+## Installation
 
 ```bash
 yarn add nuxt-trustbox-module
@@ -47,7 +48,7 @@ Add `nuxt-trustbox-module` to `modules` section of `nuxt.config.js`:
 ```
 
 ```vue
-<Trustbox
+<trustbox
   template-id="my_trustbox_template_id"
   style-height="150px"
   style-width="400px"
@@ -60,7 +61,7 @@ Add `nuxt-trustbox-module` to `modules` section of `nuxt.config.js`:
 It's very simple to automatically translate the TrustBox if you are using `nuxt-i18n`:
 
 ```vue
-<Trustbox
+<trustbox
   template-id="my_trustbox_template_id"
   :locale="$i18n.locales.find(l => l.code === $i18n.locale).iso"
   :key="$i18n.locale" />
