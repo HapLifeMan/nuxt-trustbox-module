@@ -4,7 +4,8 @@
 [![npm](https://img.shields.io/npm/dt/nuxt-trustbox-module.svg)](https://npmjs.com/package/nuxt-trustbox-module)
 
 > A NuxtJS module thats injects Trustpilot TrustBox code and provide a `<trustbox />` component
-CodeSandebox: [Code reproduction](https://codesandbox.io/s/nuxt-trustbox-module-example-yzm19) | [Full page](https://yzm19.sse.codesandbox.io/)
+
+**CodeSandbox: [CODE REPRODUCTION](https://codesandbox.io/s/nuxt-trustbox-module-example-yzm19) | [FULL PAGE EXAMPLE](https://yzm19.sse.codesandbox.io/)**
 
 ## Table of Contents
 
