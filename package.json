@@ -1,6 +1,6 @@
 {
   "name": "nuxt-trustbox-module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Nuxt module for Trustpilot TrustBox",
   "license": "MIT",
   "author": "Thomas Reichling <thomas.reichling@gmail.com>",
